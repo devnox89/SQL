@@ -1,0 +1,5 @@
+7-You decide to remove a book with BookID = 1 from the Books table. Ensure this change is saved permanently.
+
+BEGIN TRANSACTION;
+DELETE FROM books WHERE id = 1;
+COMMIT;

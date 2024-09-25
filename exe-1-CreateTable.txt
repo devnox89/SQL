@@ -1,0 +1,14 @@
+1-Imagine you're designing a database to manage a bookstore. 
+Create a table named "Books" with attributes for book_id, title, author, genre, published_year, isbn, price, rating, and stock_count.
+
+CREATE TABLE  books (
+	book_id INTEGER PRIMARY KEY,
+	title TEXT,
+  	author TEXT, 
+  	genre TEXT,
+  	publisher_year INTEGER,
+  	isbn INTEGER,
+  	price INTEGER,
+  	rating INTEGER,
+  	stock_count INTEGER
+)
